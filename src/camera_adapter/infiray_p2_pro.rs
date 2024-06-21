@@ -70,6 +70,6 @@ impl CameraAdapter for InfirayP2ProAdapter {
 
     fn usb_vid_pid(&self) -> (u16, u16) {
         // Bus 001 Device 061: ID 0bda:5830 Realtek Semiconductor Corp. USB Camera
-        (0x0bda, 0x5830)
+        (0x0bda, 0x5840)
     }
 }
